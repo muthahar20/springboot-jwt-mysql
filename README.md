@@ -7,11 +7,11 @@
 
 
 
-Client ---> [ Request(userName+Password) ] ----> POST /auth/login
-Client <--- [ Response(+accessToken) ] <---- POST /auth/login
+# Client ---> [ Request(userName+Password) ] ----> POST /auth/login
+# Client <--- [ Response(+accessToken) ] <---- POST /auth/login
 
-Client ---> [ Request(+accessToken) ] ----> GET /products
-Client ---> [ Response(+JSON) ] ----> GET /products
+# Client ---> [ Request(+accessToken) ] ----> GET /products
+# Client ---> [ Response(+JSON) ] ----> GET /products
 
 
 
