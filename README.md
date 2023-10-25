@@ -1,4 +1,21 @@
 # springboot-jwt-mysql
+--------------------------------
+
+
+
+
+
+
+
+Client ---> [ Request(userName+Password) ] ----> POST /auth/login
+Client <--- [ Response(+accessToken) ] <---- POST /auth/login
+
+Client ---> [ Request(+accessToken) ] ----> GET /products
+Client ---> [ Response(+JSON) ] ----> GET /products
+
+
+
+
 
 
 # Note: before execute login API please run Test SpringbootJwtMysqlApplicationTests class
