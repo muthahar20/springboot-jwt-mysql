@@ -1,9 +1,9 @@
 # springboot-jwt-mysql
 
 
-#Note: before execute login API please run Test SpringbootJwtMysqlApplicationTests class
+# Note: before execute login API please run Test SpringbootJwtMysqlApplicationTests class
 
-#Login API:
+# Login API:
 -----------
 http method type: POST
 url: http://localhost:8080/auth/login
@@ -18,7 +18,7 @@ body:
 
 
 
-#Product API:
+# Product API:
 -----------
 http method type: POST
 url: http://localhost:8080/products
